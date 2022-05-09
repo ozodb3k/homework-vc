@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1100px;
+            margin: auto;
+        }
+
+        nav .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .navbar-brand a h1 {
+            color: rgb(52, 52, 52);
+        }
+
+        nav .navbar-brand a img {
+            width: 60px;
+            height: 60px;
+            margin-right: 25px;
+        }
+
+        nav .navbar-menu ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        nav .navbar-menu ul li {
+            margin: 0 20px;
+        }
+
+        nav .navbar-menu ul li a {
+            color: rgb(52, 52, 52);
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        nav .navbar-menu ul li a.active {
+            color: #0051ff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-brand">
+            <a href="#!">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+                    alt="logo">
+            </a>
+            <h1>Home</h1>
+        </div>
+        <div class="navbar-menu">
+            <ul>
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/service">Service</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+</html>
